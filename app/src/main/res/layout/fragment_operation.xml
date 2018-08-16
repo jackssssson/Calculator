@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OperationFragment"
+    android:background="@color/md_blue_A200">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/enterFirstNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/enter_a_number"
+        android:inputType="number"
+        android:textColor="@color/md_red_600"
+        android:textColorHint="@color/md_yellow_200"/>
+
+    <EditText
+        android:id="@+id/enterSecondNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="@string/enter_a_number"
+        android:inputType="number"
+        android:textColor="@color/md_red_600"
+        android:textColorHint="@color/md_yellow_200" />
+
+    <Button
+        android:id="@+id/btnId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:background="@color/md_red_400"
+        android:text="@string/add" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/md_red_600"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo2" />
+
+</FrameLayout>
